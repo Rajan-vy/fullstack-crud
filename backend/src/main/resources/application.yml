@@ -1,8 +1,8 @@
 spring:
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/testdbspringboot
-    username: root
-    password: Mysql@13579
+    url: r2dbc:mysql://localhost:3306/${DB_NAME}
+    username: ${DB_USER}
+    password: ${DB_PASS}
 
   sql:
     init:
