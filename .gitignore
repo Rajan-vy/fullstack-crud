@@ -1,0 +1,16 @@
+# Backend
+/backend/target/
+backend/.idea/
+backend/.env
+backend/application.yml
+*.log
+*.class
+
+# Frontend
+/frontend/.next/
+frontend/node_modules/
+frontend/.env
+
+# General
+.DS_Store
+*.iml
