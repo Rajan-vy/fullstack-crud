@@ -21,29 +21,29 @@ fullstack-user-crud/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/fullstack-user-crud.git
-cd fullstack-user-crud
+- git clone https://github.com/your-username/fullstack-user-crud.git
+- cd fullstack-user-crud
 
 ## Backend Setup (Spring Boot WebFlux)
 ### Requirements
-Java 17+
-Maven
-MySQL (running locally)
+- Java 17+
+- Maven
+- MySQL (running locally)
 
 create database
-CREATE DATABASE user_crud_db;
+- CREATE DATABASE user_crud_db;
 
 update backend/src/main/resources/application.properties with your MySQL credentials
 
-spring.r2dbc.url=r2dbc:mysql://localhost:3306/user_crud_db
-spring.r2dbc.username=your_username
-spring.r2dbc.password=your_password
+- spring.r2dbc.url=r2dbc:mysql://localhost:3306/user_crud_db
+- spring.r2dbc.username=your_username
+- spring.r2dbc.password=your_password
 
 
 run backend
 
-cd backend
-mvn clean install
-mvn spring-boot:run
+- cd backend
+- mvn clean install
+- mvn spring-boot:run
 
 
