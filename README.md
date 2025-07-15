@@ -21,7 +21,7 @@ fullstack-user-crud/
 
 ### 1. Clone the Repository
 
-- git clone https://github.com/your-username/fullstack-user-crud.git
+- git clone https://github.com/Rajan-vy/fullstack-user-crud.git
 - cd fullstack-user-crud
 
 ## Backend Setup (Spring Boot WebFlux)
