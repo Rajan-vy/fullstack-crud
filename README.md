@@ -46,4 +46,13 @@ run backend
 - mvn clean install
 - mvn spring-boot:run
 
+## Frontend Setup (Next.js + Tailwind)
+### Requirements
+- Node.js (v16+ recommended)
+- npm
 
+
+run frontend
+- cd frontend
+- npm install
+- npm run dev
